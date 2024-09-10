@@ -32,3 +32,8 @@ img{
     align-items: center;
 
 }
+.main-container{
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
