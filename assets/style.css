@@ -29,7 +29,7 @@
 }
 .main-container{
     display: flex;
-    width: 100%;
+    width: 100;
     flex-wrap: wrap;
     gap: 10px;
     height: auto;
@@ -51,7 +51,7 @@
 .img-product4 ,.img-product5 ,.img-product6{
     padding-top: 70px;
 }
-.product-name ,.product-info ,.red-product-price ,.product-price ,.srl ,.aziend-info ,.social ,.Model{
+.product-name ,.product-info ,.red-product-price ,.product-price ,.srl ,.aziend-info ,.social ,.Model ,.discount ,.sost{
     font-family: Arial, Helvetica, sans-serif;
 }
 .red-product-price{
@@ -81,4 +81,28 @@
 .icon{
     padding-top: 10px;
 }
-
+.discount{
+   position: absolute;
+    left: 300px;
+    bottom: 250px;
+    height: 30px;
+    width: 60px; 
+    background-color: var(--bg-color-percent);
+    text-align: center;
+    color: white;
+    font-size: small;
+    padding-top: 7px;
+}
+.sost{
+    position: absolute;
+    left: 365px;
+    bottom: 250px;
+    height: 30px;
+    width: 100px; 
+    background-color: var(--bg-color-sost);
+    text-align: center;
+    color: white;
+    font-size: small;
+    padding-top: 7px;
+}
+    
