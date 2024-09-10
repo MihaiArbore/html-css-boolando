@@ -28,12 +28,29 @@ img{
 }
 .main-container{
     display: flex;
-    width: 30%;
-    align-items: center;
+    width: auto;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    justify-content: center;
+    
 
 }
-.main-container{
-    gap: 1rem;
-    flex-wrap: wrap;
-    align-items: center;
+.product1{
+    position: relative;
+}
+.product2{
+    position: relative;
+}
+.product3{
+    position: relative;
+}
+.product4{
+    position: relative;
+}
+.product5{
+    position: relative;
+}
+.product6{
+    position: relative;
 }
