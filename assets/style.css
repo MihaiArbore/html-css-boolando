@@ -10,9 +10,19 @@
     --bg-color-sost: #008000;
     --bg-color-sconto:#ff0001;
 }
+/* head-setting */
 .hd-container{
     display: flex;
     background-color: var(--bg-color-header);
     height: 80px;
     width: auto;
+    justify-content: space-around   ;
+    align-items: center;
+    
+}
+img{ 
+    height: 30%;
+}
+.Model ,.personal-sect{
+    color: white;
 }
