@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color-header: #ff6900;
+    --bg-color-bool: #e7e6e5;
+    --bg-color-percent: #ff0000;
+    --bg-color-sost: #008000;
+    --bg-color-sconto:#ff0001;
+}
+.hd-container{
+    display: flex;
+    background-color: var(--bg-color-header);
+    height: 80px;
+    width: auto;
+}
