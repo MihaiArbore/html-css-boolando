@@ -56,3 +56,6 @@
 .red-product-price{
     color: var(--bg-color-sconto);
 }
+.product-price{
+    text-decoration: line-through;
+}
