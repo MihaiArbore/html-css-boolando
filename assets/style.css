@@ -39,22 +39,20 @@
 
     
 }
-.img-product1{
+.img-product1 ,.img-product2 ,.img-product4 ,.img-product5 ,.img-product6{
     height: auto;
     width:auto;
-}.img-product2{
-    height: auto;
-    width:auto;
-}.img-product3{
+}
+.img-product3{
     height: 924px;
     width: 640px;
-}.img-product4{
-    height: auto;
-    width:auto;
-}.img-product5{
-    height: auto;
-    width:auto;
-}img-product6{
-    height: auto;
-    width:auto;
+}
+.img-product4 ,.img-product5 ,.img-product6{
+    padding-top: 70px;
+}
+.product-name ,.product-info ,.red-product-price ,.product-price{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.red-product-price{
+    color: var(--bg-color-sconto);
 }
